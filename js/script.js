@@ -19,7 +19,7 @@ const map = L.map("map", {
 });
 
 // Dodanie obrazu
-L.imageOverlay("images/kontynent.jpg", bounds).addTo(map);
+L.imageOverlay("images/kontynent.webp", bounds).addTo(map);
 
 // Dopasowanie widoku
 map.fitBounds(bounds);
